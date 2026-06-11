@@ -1,0 +1,11 @@
+/*
+ * Injected via the manifest (cssInjectionMode: 'manifest'), so the browser — not
+ * the page — applies it; immune to the page's CSP. Hides the original raw <pre>
+ * the instant detection succeeds, before the viewer mounts, to avoid a flash.
+ *
+ * Lives under assets/ rather than entrypoints/ because WXT treats any file in
+ * entrypoints/ as its own entrypoint (content.css would collide with content.ts).
+ */
+html[data-pretty-raw] body > pre {
+  display: none !important;
+}

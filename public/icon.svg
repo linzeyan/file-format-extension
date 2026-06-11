@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="#0550ae"/>
+  <!-- Document shape (page outline) -->
+  <rect x="28" y="18" width="56" height="72" rx="6" fill="white" opacity="0.12"/>
+  <path d="M74 18 L84 18 L84 30 L74 30 Z" fill="none"/>
+  <path d="M74 18 L84 28 L74 28 Z" fill="white" opacity="0.20"/>
+  <!-- Braces -->
+  <!-- Left brace { -->
+  <path d="
+    M 50 38
+    C 44 38, 40 40, 40 46
+    L 40 58
+    C 40 62, 37 64, 34 64
+    C 37 64, 40 66, 40 70
+    L 40 82
+    C 40 88, 44 90, 50 90
+  " stroke="white" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Right brace } -->
+  <path d="
+    M 78 38
+    C 84 38, 88 40, 88 46
+    L 88 58
+    C 88 62, 91 64, 94 64
+    C 91 64, 88 66, 88 70
+    L 88 82
+    C 88 88, 84 90, 78 90
+  " stroke="white" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Bottom bar -->
+  <rect x="28" y="100" width="72" height="10" rx="5" fill="white" opacity="0.30"/>
+</svg>

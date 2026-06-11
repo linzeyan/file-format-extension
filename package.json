@@ -1,0 +1,37 @@
+{
+  "name": "file-format-viewer",
+  "description": "Pretty-print and syntax-highlight raw data and config files in the browser.",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "verify": "pnpm typecheck && pnpm test && pnpm build && pnpm build:firefox",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "@types/ini": "^4.1.1",
+    "@types/node": "^25.9.2",
+    "happy-dom": "^20.10.2",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8",
+    "wxt": "^0.20.26"
+  },
+  "dependencies": {
+    "@shikijs/engine-javascript": "^4.2.0",
+    "@shikijs/langs": "^4.2.0",
+    "@shikijs/themes": "^4.2.0",
+    "ini": "^6.0.0",
+    "shiki": "^4.2.0",
+    "smol-toml": "^1.6.1",
+    "yaml": "^2.9.0"
+  }
+}
