@@ -6,3 +6,4 @@ stats.html
 
 # Generated icon PNGs — built from public/icon.svg via `make icons`
 public/icon-*.png
+/docs
