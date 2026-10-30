@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/ini": "^4.1.1",
     "@types/node": "^25.9.2",
-    "happy-dom": "^20.10.2",
+    "happy-dom": "^21.0.4",
     "typescript": "^6.0.3",
     "vitest": "^4.1.8",
     "wxt": "^0.20.26"
